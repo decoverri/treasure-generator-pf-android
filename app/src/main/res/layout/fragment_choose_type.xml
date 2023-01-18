@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.treasureTypes.ChooseTypeFragment">
+    tools:context=".ui.chooseType.ChooseTypeFragment">
 
     <TextView
         android:id="@+id/treasure_types_title"

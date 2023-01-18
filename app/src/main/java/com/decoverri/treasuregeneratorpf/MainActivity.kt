@@ -2,7 +2,7 @@ package com.decoverri.treasuregeneratorpf
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.decoverri.treasuregeneratorpf.ui.treasureTypes.ChooseTypeFragment
+import com.decoverri.treasuregeneratorpf.ui.chooseType.ChooseTypeFragment
 
 class MainActivity : AppCompatActivity() {
 
