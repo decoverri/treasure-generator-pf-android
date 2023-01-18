@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/treasure_card"
+    android:layout_width="120dp"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/treasure_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+</androidx.cardview.widget.CardView>
