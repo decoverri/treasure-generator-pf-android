@@ -28,7 +28,7 @@ class ChooseTypeFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_choose_type, container, false)
 
         val treasureGridView = view.findViewById<GridView>(R.id.treasure_type_grid)
-        treasureGridView.adapter = activity?.let { TreasureGridAdapter(it, TreasureType.values().asList()) }
+        treasureGridView.adapter = activity?.let { TreasureGridAdapter(it, TreasureType.values().asList() - TreasureType.NONE) }
 
         treasureGridView.onItemClickListener =
             AdapterView.OnItemClickListener { parent, _, position, _ ->

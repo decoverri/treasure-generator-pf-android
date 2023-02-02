@@ -19,7 +19,7 @@ import androidx.annotation.Keep
         letter = "N",
         title = "No Treasure",
         description = "No type selected",
-        values = listOf()
+        values = listOf(0)
     )
 }
 
