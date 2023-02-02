@@ -13,7 +13,7 @@
         <argument
             android:name="selectedType"
             app:argType="com.decoverri.treasuregeneratorpf.model.TreasureType"
-            android:defaultValue="COINS" />
+            android:defaultValue="NONE" />
         <action
             android:id="@+id/action_chooseTypeFragment_to_chooseValueFragment"
             app:destination="@id/chooseValueFragment" />
@@ -26,7 +26,7 @@
         <argument
             android:name="selectedType"
             app:argType="com.decoverri.treasuregeneratorpf.model.TreasureType"
-            android:defaultValue="COINS" />
+            android:defaultValue="NONE" />
     </fragment>
 
 </navigation>

@@ -14,6 +14,12 @@ import androidx.annotation.Keep
         title = "Coins and Gems",
         description = "This type consists of coins but also includes gemstones, some of which can be quite valuable. It is typically found in a small cache or as part of a larger treasure roll.",
         values = listOf(10,15,25,50,75,100,150,200,500,750,1000,2500,5000,10000,20000,50000)
+    ),
+    NONE(
+        letter = "N",
+        title = "No Treasure",
+        description = "No type selected",
+        values = listOf()
     )
 }
 
