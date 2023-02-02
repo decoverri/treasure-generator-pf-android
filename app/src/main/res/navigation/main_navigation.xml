@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/chooseTypeFragment">
+
+    <fragment
+        android:id="@+id/chooseTypeFragment"
+        android:name="com.decoverri.treasuregeneratorpf.ui.chooseType.ChooseTypeFragment"
+        android:label="fragment_choose_type"
+        tools:layout="@layout/fragment_choose_type" >
+        <argument
+            android:name="selectedType"
+            app:argType="com.decoverri.treasuregeneratorpf.model.TreasureType"
+            android:defaultValue="COINS" />
+        <action
+            android:id="@+id/action_chooseTypeFragment_to_chooseValueFragment"
+            app:destination="@id/chooseValueFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseValueFragment"
+        android:name="com.decoverri.treasuregeneratorpf.ui.chooseValue.ChooseValueFragment"
+        android:label="fragment_choose_value"
+        tools:layout="@layout/fragment_choose_value" >
+        <argument
+            android:name="selectedType"
+            app:argType="com.decoverri.treasuregeneratorpf.model.TreasureType"
+            android:defaultValue="COINS" />
+    </fragment>
+
+</navigation>

@@ -1,6 +1,8 @@
 package com.decoverri.treasuregeneratorpf.model
 
-enum class TreasureType(val letter: String, val title: String, val description: String, val values: List<Int>) {
+import androidx.annotation.Keep
+
+@Keep enum class TreasureType(val letter: String, val title: String, val description: String, val values: List<Int>) {
     COINS(
         letter = "A",
         title = "Coins",
